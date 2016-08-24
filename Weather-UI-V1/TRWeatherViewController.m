@@ -191,7 +191,7 @@
 - (void)startlocation {
     _locationManager = [[CLLocationManager alloc]init];
     if (![CLLocationManager locationServicesEnabled]) {
-        NSLog(@"需要开启定位");
+        NSLog(@"需要开启定位aaa");
         return;
     }
     if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined) {
